@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: #3d3838;
+}
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2rem;
+}
+.card-container{
+    width: 30%;
+    height: 30rem;
+    background-color: #888585;
+    border: #1f1d1d solid 0.25rem; 
+}
+.card-container:hover{
+    width: 32rem;
+    height: 32rem;
+    background-color: #575454;
+    transition: 0.5s;
+    color: #dddddd;
+}
+.fotinho{
+    width: 100%;
+    height: 100%;
+    border: #1f1d1d solid 0.25rem;
+}
